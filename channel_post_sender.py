@@ -21,17 +21,17 @@ async def send_post(message: types.Message):
         return
 
     # Rasm file_id
-    photo_file_id = "AgACAgIAAyEFAASg3IK3AAMbaQRyg7LWvohSq5yFSRF8LbT8UvUAAroDMht6bylIlWJdrnRCr80BAAMCAAN5AAM2BA"
+    photo_file_id = "AgACAgIAAxkBAAPbaQx9SpkhKcV3icEgh1-5Zt-BlKIAAqoMaxu0mGlI2tzlx_M4pgUBAAMCAAN5AAM2BA"
 
     # Post caption
     caption = (
-        "*Yolg'izlikda Daraja Ko'tarish Fasl-1*\n\n"
+        "*Yolg'izlikda Daraja Ko'tarish Fasl-2*\n\n"
         "╭──────────────\n"
         "├‣ Holati: Tugallangan\n"
         "├‣ Sifat: 720p\n"
-        "├‣ Janr: Romantika\n"
+        "├‣ Janr: Fantastika, Ekshin\n"
         # "├‣ Kanal: @Anime_lar_New\n"
-        "├‣ Qism: 12\n"
+        "├‣ Qism: 13\n"
         "╰──────────────\n\n"
         "👇 Pastdagi tugmani bosing 👇"
     )
@@ -41,7 +41,7 @@ async def send_post(message: types.Message):
     keyboard.add(
         types.InlineKeyboardButton(
             text="▶️ Tomosha qilish",
-            url="https://t.me/New_Anime_lar_Bot?start=solo_leveling-fasl1"
+            url="https://t.me/New_Anime_lar_Bot?start=solo_leveling-fasl2"
         )
     )
 
