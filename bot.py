@@ -34,7 +34,7 @@ with open("data/animes.json", "r", encoding="utf-8") as file:
 
 
 
-# === Obuna tekshirish funksiyasi (bir nechta kanal uchun) ===
+# === Obunabra tekshirish funksiyasi (bir nechta kanal uchun) ===
 async def check_subscriptions(user_id):
     """Foydalanuvchi barcha kanallarga obuna bo‘lganligini tekshiradi"""
     result = []
