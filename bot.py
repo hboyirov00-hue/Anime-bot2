@@ -29,8 +29,10 @@ async def get_media_file_id(message: types.Message):
         )
 
 # === JSON'dan ANIME ma'lumotlarini yuklash ===
-with open("data/animes.json", encoding="utf-8") as f:
-    ANIMES = json.load(f)
+with open("data/animes.json", "r", encoding="utf-8") as file:
+    ANIMES = json.load(file)
+
+
 
 # === Obuna tekshirish funksiyasi (bir nechta kanal uchun) ===
 async def check_subscriptions(user_id):
